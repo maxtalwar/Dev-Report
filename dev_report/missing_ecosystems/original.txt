@@ -1,0 +1,230 @@
+Bitcoin
+Ethereum
+Bitcoin Cash
+Litecoin
+EOS
+Stellar
+Cardano
+Tron
+Monero
+Bitcoin SV
+IOTA
+Tezos
+Cosmos
+Ethereum Classic
+NEO
+Ontology
+Maker
+NEM
+Zcash
+Vechain
+Dogecoin
+Decred
+OmiseGo
+Qtum
+Waves
+TrueUSD
+Chainlink
+Lisk
+Holochain
+XRP
+Tether
+BNB Chain
+Dash
+USD Coin
+Bitcoin Gold
+Basic Attention Token
+Zilliqa
+0x
+DigiByte
+ICON
+Paxos Standard Token
+Steem
+Sia Foundation
+IOST
+THETA
+Gemini Dollar
+Status
+Golem
+Huobi Token
+Ardor
+Loopring
+KuCoin Shares
+WAX
+Nexo
+Decentraland
+Ravencoin
+Dent
+Polymath
+Storj
+Enjin Coin
+Syscoin
+iExec RLC
+Civic
+IoTeX
+Gnosis
+dYdX
+Ocean Protocol
+Celsius
+Radix DLT
+SwissBorg
+Stacks
+Oasis
+The Graph
+Filecoin
+Internet Computer
+Solana
+Algorand
+Republic Protocol
+NuCypher
+COTI
+Mina Protocol
+Harmony
+Orbs
+Celer Network cBridge
+Quant Network
+Arweave
+Polkadot
+Hedera Hashgraph
+Function X
+Wink
+GoldMaxCoin
+CEEK VR
+Constellation
+Chia
+Fantom
+Keep Network
+OKB
+BORA
+Helium
+BitTorrent
+CoinEx Token
+Wrapped Bitcoin
+Rocket Pool
+Livepeer
+Polygon
+NEAR
+ABBC Coin
+Compound
+Ethereum Name Service
+Synthetix
+Uniswap
+Axie Infinity
+Ren
+Terra
+Ecomi
+Reserve Rights
+Chiliz
+Elrond
+Bitcoin BEP2
+THORChain
+Horizen
+Ontology Gas
+MediBloc
+Request
+Ankr
+UNUS SED LEO
+XinFin Network
+Celo
+FTX
+Skale Network
+Kadena
+Worldwide Asset eXchange
+Aave
+Klaytn
+Flow
+Avalanche
+Balancer
+yearn.finance
+Curve
+DeFiChain
+NXM
+HUSD
+PAX Gold
+HEX
+Dai
+Compound USD Coin
+Tether Gold
+SHIBA INU
+Kava.io
+UMA
+Trust Wallet Token
+Compound Dai
+Small Love Potion
+Energy Web Token
+Hive
+Compound USDT
+Binance USD
+Neutrino Dollar
+Gatechain Token
+Render Token
+FLUX
+JUST
+CoinMetro Token
+Ultra
+Compound Ether
+Velas
+LINK
+Kusama
+Sushi Swap
+Frax
+Moonbeam
+Secret
+Tokenize Xchange
+Gala
+PancakeSwap
+Amp
+Serum
+The Sandbox
+APEcoin
+Huobi BTC
+Wrapped BNB
+Audius
+Injective Protocol
+PlayDapp
+Optimism
+API3
+Nexus Mutual
+1inch
+Bitcoin Cash ABC
+OKEX Chain
+Alchemix
+APENFT
+Casper Network
+Convex Finance
+DAO Maker
+Escoin Token
+Fei Protocol
+Liquity USD
+Boba (OMG Network)
+Osmosis
+SafeMoon
+Spell Token
+Tenset
+Tribe
+WOO Network
+Abracadabra
+Olympus DAO
+Ribbon Finance
+SynLev
+Marinade
+Lido
+Immutable
+GMX
+Synapse Protocol
+Juno
+Deso Protocol
+EVMOS
+VVS Finance
+Maiar Exchange
+Ergo Labs
+Cronos
+MXC Foundation
+Baby Doge Coin
+Aptos
+Merit Circle
+stepn
+BitDAO
+Bitgert
+Flare (Songbird)
+Solar Network

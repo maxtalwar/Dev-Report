@@ -1,0 +1,58 @@
+<!-- template for the index page -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Progress Tracker</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      function updateVariables() {
+          // Make an AJAX request to the flask app to get the latest values for the variables
+          $.ajax({
+              url: '/display_variables',
+              success: function(response) {
+                  // Split the response into separate lines
+                  var lines = response.split('\n');
+      
+                  // Extract the values for the row, link, and function from the response
+                  var progress = lines[0].split(': ')[1];
+                  var row = lines[1].split(': ')[1];
+                  var link = lines[2].split(': ')[1];
+                  var func = lines[3].split(': ')[1];
+                  var start_time = lines[4].split(': ')[1];
+
+                  // Store the link in a JavaScript variable
+                  window.link = link;
+      
+                  // Update the page with the latest values
+                  $('#progress').html("Progress: " + progress);
+                  $('#row').html("Row: " + row);
+                  $('#link').html("Link: " + link);
+                  $('#function').html("Function: " + func);
+                  $('#start_time').html("Start Time: " + start_time);
+              }
+          });
+      }
+
+      function copyToClipboard() {
+          // Get the link from the JavaScript variable
+          var link = window.link;
+
+          // Use the clipboard API to copy the link to the clipboard
+          navigator.clipboard.writeText(link);
+      }
+      
+      // Run the updateVariables function every 1 second
+      setInterval(updateVariables, 1000);
+    </script>
+  </head>
+  <body>
+    <!-- display the values of the three variables -->
+    <div id="progress">Progress: {{ progress }}</div>
+    <div id="row">Row: {{ row }}</div>
+    <div id="link">Link: {{ link }}</div>
+    <div id="function">Function: {{ function }}</div>
+    <div id="start_time">Start Time: {{ start_time }}</div>
+    
+    <button onclick="copyToClipboard()">Copy Link</button>
+  </body>
+</html>
