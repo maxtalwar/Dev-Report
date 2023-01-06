@@ -102,6 +102,8 @@ def find_github_urls_beautifulsoup(html):
                         final_url = session.get(href).url
                     except requests.exceptions.ConnectionError:
                         continue
+                    except requests.exceptions.ReadTimeout:
+                        continue
 
                     if "github.com" in final_url:
                         github_urls.append(final_url)
@@ -187,7 +189,7 @@ if __name__ == "__main__":
                 continue
 
             # update info on console
-            display_info(rows_scanned, row_num, website_url, current_function="reference_cache")
+            display_info(rows_scanned, row_num, website_url, "reference_cache")
 
             # check to see if website already has a stored github link, and if so just add the one that has already been stored
             if website_url in url_cache.keys():
@@ -196,21 +198,21 @@ if __name__ == "__main__":
             else:
                 try:
                     # get HTML
-                    display_info(rows_scanned, row_num, website_url, current_function="get_html")
+                    display_info(rows_scanned, row_num, website_url, "get_html")
                     future = executor.submit(get_html, website_url)
                     html = future.result()
                 except KeyboardInterrupt:
                     html = ""
 
                 # find all github links
-                display_info(rows_scanned, row_num, website_url, current_function="find_github_urls")
+                display_info(rows_scanned, row_num, website_url, "find_github_urls")
                 discovered_urls = find_github_urls_regex(html)
 
                 if len(discovered_urls) == 0:
                     discovered_urls = find_github_urls_beautifulsoup(html)
 
                 # choose the URL out of the given URLs
-                display_info(rows_scanned, row_num, website_url, current_function="choose_url")
+                display_info(rows_scanned, row_num, website_url, "choose_url")
                 github_url = choose_url(discovered_urls)
 
                 url_cache[website_url] = github_url
